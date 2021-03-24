@@ -1,0 +1,37 @@
+:root {
+
+    /* font size */
+    --font-size-xsm: 10px;
+    --font-size-sm: 12px;
+    --font-size-md: 16px;
+    --font-size-large: 20px;
+    --font-size-xlg: 32px;
+  
+    /* font weight */
+    --font-weight-bolder: 700;
+    --font-weight-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-normal: 400;
+    --font-weight-light: 300;
+    --font-weight-verylight: 200;
+  
+  }
+  
+  
+  /* font sizes */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* border */
+  .border1px{
+    border-width: 1px;
+  }
+  
