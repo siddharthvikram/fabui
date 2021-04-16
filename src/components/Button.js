@@ -1,14 +1,11 @@
 export function Button({
-    text,
+    children,
     classes,
     click
   }) 
   {
-    console.log(click)
       return(
-          <div>
-              <button className={classes} onClick={click}>{text}</button>
-          </div> 
+          <button className={classes} onClick={click}>{children}</button>
         )
       }
-      export default Button; 
+      export default Button;

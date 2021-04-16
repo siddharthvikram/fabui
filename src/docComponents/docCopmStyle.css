@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* font-family: 'Work Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+:root{
+--primaryColor: #272727;
+--secondaryColor: #3D3D3D;
+--thirdColor: #525252;
+--btnColor1: #A855F7 ;
+--btnColor2: #C084FC;
+--btnColor3: aliceblue;
+}
+
+.navBar{
+    display: flex;
+    background-color: var(--primaryColor);
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    /* padding-left: 1rem; */
+    padding-right: 1rem;
+    position: fixed;
+    width: 100%;
+}
+.mainDiv{
+    padding-top: 3rem;
+    height: calc(100% - 3rem);
+}
+
+.fabUIDiv{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--btnColor3);
+}
+
+.fabUILogo{
+    display: flex;
+    height: 2.5rem;
+    margin: .5rem;
+    fill: var(--btnColor3);
+}
+
+:hover>.fabUILogo{
+fill: var(--btnColor1);
+}
+
+.fabUI{
+    display: flex;
+    flex-direction: column;
+}
+
+.uiVersion{
+    font-size: .60rem;
+}
+
+.menuBtn{
+    display: flex;
+    justify-content: space-evenly;
+    width: 10rem;
+}
+
+:hover>.menuBtnSvg{
+    fill: var(--btnColor1);
+}
+
+:hover> .svgdiv{
+    fill:var(--btnColor1)
+}
+
+.codeBox{
+    padding: 1rem;
+    border: solid 1rem var(--secondaryColor);
+    background-color: var(--primaryColor);
+}
+
+/* avatar */
+.avatarDocBox1{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+}

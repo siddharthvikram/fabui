@@ -4,7 +4,7 @@ export function Avatar({
     classes
   }) {
       return(
-          <div >
+          <div>
               <img src={src} alt={alt} className={classes}/>
           </div> 
         )

@@ -1,5 +1,5 @@
 import {FloatingButton } from './FloatingButton'
-export function ModalBox({
+export function Modal({
     mainText,
     subText,
   }) 
@@ -16,4 +16,4 @@ export function ModalBox({
         </div> 
         )
       }
-      export default ModalBox; 
+      export default Modal; 
